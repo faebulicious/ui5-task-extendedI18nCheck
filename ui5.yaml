@@ -1,0 +1,7 @@
+specVersion: "2.2"
+metadata:
+  name: ui5-task-extendedi18ncheck
+kind: extension
+type: task
+task:
+  path: lib/i18nextcheck.js

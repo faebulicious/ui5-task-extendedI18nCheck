@@ -1,0 +1,26 @@
+{
+  "name": "ui5-task-extendedi18ncheck",
+  "version": "1.0.0",
+  "description": "Task for the UI5 tooling to check for missing and duplicate translation in i18n properties used in XML views and javascript sources",
+  "author": "Fabian von Allmen <faebu@faebu.ch>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faebulicious/ui5-task-extendedI18nCheck.git"
+  },
+  "dependencies": {
+    "@ui5/logger": "^2.0.1",
+    "path": "^0.12.7",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.11.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsdoc": "^35.1.2",
+    "prettier": "2.3.0"
+  },
+  "ui5": {
+    "dependencies": []
+  }
+}
