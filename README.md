@@ -31,7 +31,7 @@ If you need more control about the relevant groups, an object can be provided in
 ```
 javascriptPatterns:
   - \.getText\(\s*['"]([A-Za-z0-9]+)['"]\s*(,[^)]+)?\)
-  - pattern: \.getText\(.*\?\s*['"]([A-Za-z0-9]+)['"]\s*:\s*['"]([A-Za-z0-9]+)['"]\s*(,[^)]+)?\)
+  - pattern: \.getText\([\s\S]*\?[\s\r\n]*['"]([A-Za-z0-9]+)['"][\s\r\n]*:[\s\r\n]*['"]([A-Za-z0-9]+)['"][\s\r\n]*(,[^)]+)?\)
     groups:
       - 1
       - 2
